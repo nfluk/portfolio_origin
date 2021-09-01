@@ -26,10 +26,14 @@ p {
   margin-top: 8px;
 }
 
-img {
+.mainIMG {
   width: 160px;
   height: 160px;
   border-radius: 999px;
+  border: 1px solid green;
+}
+
+.icons {
 }
 
 .links {
