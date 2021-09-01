@@ -1,0 +1,40 @@
+main {
+  background-color: #d7e3fa;
+}
+
+.card {
+  background-color: #fff;
+  width: 400px;
+  padding: 32px;
+  border-radius: 20px;
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  color: #1b212c;
+  font-family: "Lato", sans-serif;
+  font-size: 32px;
+  margin-bottom: 0;
+  border: 1px solid red;
+}
+
+p {
+  color: #5e636b;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  margin-top: 8px;
+}
+
+img {
+  width: 160px;
+  height: 160px;
+  border-radius: 999px;
+}
+
+.links {
+}
+
+a {
+  margin: 8px;
+}
