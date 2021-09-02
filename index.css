@@ -10,6 +10,7 @@ main {
   border-radius: 20px;
   margin: auto;
   text-align: center;
+  border: 1px solid red;
 }
 
 h1 {
