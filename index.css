@@ -36,6 +36,7 @@ p {
 .icon {
   width: 28px;
   height: 28px;
+  border: 1px solid red;
 }
 
 .links {
