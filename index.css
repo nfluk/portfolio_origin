@@ -1,3 +1,8 @@
+/* removes the default margin in body that renders a white line in the view */
+body {
+  margin: 0px;
+}
+
 main {
   background-color: #d7e3fa;
   height: 100vh;
@@ -13,7 +18,6 @@ main {
   border-radius: 20px;
   margin: auto;
   text-align: center;
-  border: 1px solid red;
 }
 
 h1 {
@@ -41,7 +45,6 @@ p {
 .icon {
   width: 28px;
   height: 28px;
-  border: 1px solid red;
 }
 
 .links {
