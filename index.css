@@ -1,6 +1,9 @@
 main {
   background-color: #d7e3fa;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card {
