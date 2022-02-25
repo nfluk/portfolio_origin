@@ -6,8 +6,20 @@
 
 body {
   min-height: 100vh;
-  border: 1px solid red;
+  display: flex; /* displays the content inside of the body central inside the body */
+  justify-content: center;
+  align-items: center;
 }
 
 .box {
+  display: flex; /* displays the content inside of the box class central inside the box class */
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  background-color: aqua;
+}
+
+p {
+  text-align: center;
 }
