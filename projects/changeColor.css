@@ -11,7 +11,7 @@ body {
   align-items: center;
 }
 
-.box {
+#box {
   display: flex; /* displays the content inside of the box class central inside the box class */
   justify-content: center;
   align-items: center;
