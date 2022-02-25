@@ -19,5 +19,7 @@ function changeColor() {
 
   document.getElementById("box").style.backgroundColor = colorArray[randNumber];
 
+  var randNumber = Math.floor(Math.random() * colorArray.length);
+
   document.body.style.backgroundColor = colorArray[randNumber];
 }
