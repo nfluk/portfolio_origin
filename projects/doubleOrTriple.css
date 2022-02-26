@@ -13,7 +13,7 @@ form {
   justify-content: center;
 }
 
-#button {
+.button {
   display: flex;
   justify-content: center;
   align-items: center;
