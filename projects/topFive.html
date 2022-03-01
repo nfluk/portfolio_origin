@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Top 5 Swimmers</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header bg-dark">
+        <h1>Top 5 Swimmers</h1>
+      </header>
+      <div class="tab">
+        <button class="tablinks" onclick="rankings(event, 'Men')">Men</button>
+        <button class="tablinks" onclick="rankings(event, 'Women')">
+          Women
+        </button>
+      </div>
+
+      <div id="Men" class="tabcontent">
+        <div id="ranking" class="tabcontent">
+          <div class="content">
+            <table id="table_hw" class="rankings__table">
+              <tr>
+                <th>Ranking</th>
+                <th>Country</th>
+                <th class="name_centered">Name</th>
+                <th>Year Born</th>
+              </tr>
+
+              <tbody id="myTable"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div id="Women" class="tabcontent">
+        <div id="ranking" class="tabcontent">
+          <div class="content">
+            <table id="table_hw" class="rankings__table">
+              <tr>
+                <th>Ranking</th>
+                <th>Country</th>
+                <th class="name_centered">Name</th>
+                <th>Year Born</th>
+              </tr>
+
+              <tbody id="myTable"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer bg-dark">
+        <p>Return to <a href="#">nikluk.com</a></p>
+      </footer>
+    </div>
+    <!-- container div ends here -->
+
+    <script type="module" src="#"></script>
+    <script src="/tabs.js"></script>
+  </body>
+</html>
