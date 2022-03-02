@@ -1,3 +1,24 @@
+function rankings(evt, sex) {
+  // Declare all variables
+  var i, tabcontent, tablinks;
+
+  // Get all elements with class="tabcontent" and hide them
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Get all elements with class="tablinks" and remove the class "active"
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+
+  // Show the current tab, and add an "active" class to the button that opened the tab
+  document.getElementById(sex).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
 // rankings
 var myArrayMen = [
   {
@@ -35,15 +56,15 @@ var myArrayMen = [
 var myArrayWomen = [
   {
     ranking: "1",
-    country: "",
-    name: "",
-    born: "",
+    country: "test",
+    name: "test",
+    born: "test",
   },
   {
     ranking: "2",
-    country: "",
-    name: "",
-    born: "",
+    country: "test",
+    name: "test",
+    born: "test",
   },
   {
     ranking: "3",
@@ -65,10 +86,28 @@ var myArrayWomen = [
   },
 ];
 
-buildTable(myArrayMen);
+// buildTable(myArrayMen);
 
 function buildTable(data) {
   var table = document.getElementById("myTable");
+
+  table.innerHTML = "";
+
+  for (var i = 0; i < data.length; i++) {
+    var row = `<tr>
+              <td class="cell_ranking">${data[i].ranking}</td>
+              <td class="cell_country">${data[i].country}</td>
+              <td class="name_centered cell_name">${data[i].name}</td>
+              <td class="cell_class">${data[i].born}</td>`;
+
+    table.innerHTML += row;
+  }
+}
+
+function buildTable2(data) {
+  var table = document.getElementById("myTable2");
+
+  table.innerHTML = "";
 
   for (var i = 0; i < data.length; i++) {
     var row = `<tr>
