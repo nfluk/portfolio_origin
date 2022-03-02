@@ -57,9 +57,9 @@ var myArrayMen = [
 var myArrayWomen = [
   {
     ranking: "1",
-    country: "test",
-    name: "test",
-    born: "test",
+    country: "USA",
+    name: "Jenny Thompson",
+    born: "1973-02-26",
   },
   {
     ranking: "2",
