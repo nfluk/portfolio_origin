@@ -69,8 +69,25 @@ body {
   line-height: 1.6;
 }
 
-/* Tabs */
+/* Table */
 
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.rankings__table tr:hover {
+  background-color: #ddd;
+}
+
+/* Tabs */
 /* Style the tab */
 .tab {
   overflow: hidden;
