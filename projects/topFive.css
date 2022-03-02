@@ -52,8 +52,8 @@ p {
 
 header,
 footer {
-  background-color: var(--clr-dark);
-  color: var(--clr-accent);
+  background-color: var(--clr-light);
+  color: var(--clr-dark);
   text-align: center;
   padding: 15px;
 }
