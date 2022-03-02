@@ -1,3 +1,4 @@
+// tabs
 function rankings(evt, sex) {
   // Declare all variables
   var i, tabcontent, tablinks;
