@@ -122,3 +122,23 @@ td {
   border: 1px solid #ccc;
   border-top: none;
 }
+
+footer {
+  font-size: 0.85rem;
+  clear: both;
+}
+
+/* unvisited link */
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: aquamarine;
+}
+
+/* mouse over link */
+a:hover {
+  color: yellow;
+}
