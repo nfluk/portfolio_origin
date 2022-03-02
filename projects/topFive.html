@@ -9,54 +9,47 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="topFive.js" async></script>
 </head>
-  <body>
+<body>
     <div class="container">
       <header class="header bg-dark">
         <h1>Top 5 Swimmers</h1>
       </header>
       <div class="tab">
-        <button class="tablinks" onclick="rankings(event, 'Men')">Men</button>
-        <button class="tablinks" onclick="rankings(event, 'Women')">
-          Women
-        </button>
-      </div>
-
-      <div id="Men" class="tabcontent">
-        <div class="content">
-                  <table id="table_hw" class="rankings__table">
-                    <tr>
-                      <th>Ranking</th>
-                      <th>Country</th>
-                      <th class="name_centered">Name</th>
-                      <th>Year Born</th>
-                    </tr>
+  <button class="tablinks" onclick="rankings(event, 'Men'); buildTable(myArrayMen)">Men</button>
+  <button class="tablinks" onclick="rankings(event, 'Women'); buildTable2(myArrayWomen)">Women</button>
+</div>
       
-                    <tbody id="myTable"></tbody>
-                  </table>
-                </div>
-              </div>
-      </div>
+<div id="Men" class="tabcontent">
+  <div class="content">
+            <table id="table_hw" class="rankings__table">
+              <tr>
+                <th>Ranking</th>
+                <th>Country</th>
+                <th class="name_centered">Name</th>
+                <th>Born</th>
+              </tr>
 
-      <div id="Women" class="tabcontent">
-        <div class="content">
-                  <table id="table_hw" class="rankings__table">
-                    <tr>
-                      <th>Ranking</th>
-                      <th>Country</th>
-                      <th class="name_centered">Name</th>
-                      <th>Year Born</th>
-                    </tr>
-      
-                    <tbody id="myTable"></tbody>
-                  </table>
-                </div>
-              </div>
-      </div>
+              <tbody id="myTable"></tbody>
+            </table>
+          </div>
+        </div>
+</div>
 
-      <footer class="footer bg-dark">
-        <p>Return to <a href="/index.html">nikluk.com</a></p>
-      </footer>
-    </div>
+<div id="Women" class="tabcontent">
+  <div class="content">
+            <table id="table_hw" class="rankings__table">
+              <tr>
+                <th>Ranking</th>
+                <th>Country</th>
+                <th class="name_centered">Name</th>
+                <th>Born</th>
+              </tr>
+
+              <tbody id="myTable2"></tbody>
+            </table>
+          </div>
+        </div>
+</div>
     <!-- container div ends here -->
 
     <script type="module" src="#"></script>
