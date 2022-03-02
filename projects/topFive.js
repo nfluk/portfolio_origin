@@ -37,20 +37,20 @@ var myArrayMen = [
   {
     ranking: "3",
     country: "Russia",
-    name: "",
-    born: "",
+    name: "Alexander Popov",
+    born: "1971-11-16",
   },
   {
     ranking: "4",
-    country: "",
-    name: "",
-    born: "",
+    country: "Australia",
+    name: "Ian Thorpe",
+    born: "1982-10-13",
   },
   {
     ranking: "5",
-    country: "",
-    name: "",
-    born: "",
+    country: "USA",
+    name: "Caeleb Dressel",
+    born: "1996-08-16",
   },
 ];
 
