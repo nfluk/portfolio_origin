@@ -32,6 +32,14 @@
   background-color: var(--clr-light);
 }
 
+header,
+footer {
+  background-color: var(--clr-dark);
+  color: var(--clr-accent);
+  text-align: center;
+  padding: 15px;
+}
+
 /* Tabs */
 
 /* Style the tab */
