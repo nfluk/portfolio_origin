@@ -130,15 +130,15 @@ footer {
 
 /* unvisited link */
 a:link {
-  color: white;
+  color: #000080;
 }
 
 /* visited link */
 a:visited {
-  color: aquamarine;
+  color: #800080;
 }
 
 /* mouse over link */
 a:hover {
-  color: yellow;
+  color: #ff00ff;
 }
