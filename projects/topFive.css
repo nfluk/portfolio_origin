@@ -24,6 +24,24 @@
     0.125em 0.125em 0.25em rgba(0, 0, 0, 0.15);
 }
 
+/* setting box-sizing for everything */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* removing all margins */
+
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
 /* Style */
 
 .container {
