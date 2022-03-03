@@ -2,6 +2,10 @@ body {
   background-color: #000;
 }
 
+header {
+  color: red;
+}
+
 .container {
   height: 100vh;
   display: flex;
