@@ -26,31 +26,31 @@ var myArrayMen = [
     ranking: "1",
     country: "USA",
     name: "Michael Phelps",
-    born: "1985-06-30",
+    medals: "1985-06-30",
   },
   {
     ranking: "2",
     country: "USA",
     name: "Mark Spitz",
-    born: "1950-02-10",
+    medals: "1950-02-10",
   },
   {
     ranking: "3",
     country: "Russia",
     name: "Alexander Popov",
-    born: "1971-11-16",
+    medals: "1971-11-16",
   },
   {
     ranking: "4",
     country: "Australia",
     name: "Ian Thorpe",
-    born: "1982-10-13",
+    medals: "1982-10-13",
   },
   {
     ranking: "5",
     country: "USA",
     name: "Caeleb Dressel",
-    born: "1996-08-16",
+    medals: "1996-08-16",
   },
 ];
 
@@ -59,31 +59,31 @@ var myArrayWomen = [
     ranking: "1",
     country: "USA",
     name: "Jenny Thompson",
-    born: "1973-02-26",
+    medals: "1973-02-26",
   },
   {
     ranking: "2",
     country: "USA",
     name: "Katie Ledecky",
-    born: "1997-03-17",
+    medals: "1997-03-17",
   },
   {
     ranking: "3",
     country: "Hungary",
     name: "Krisztina Egerszegi",
-    born: "1974-08-16",
+    medals: "1974-08-16",
   },
   {
     ranking: "4",
     country: "Netherlands",
     name: "Inge de Bruijn",
-    born: "1973-08-24",
+    medals: "1973-08-24",
   },
   {
     ranking: "5",
     country: "USA",
     name: "Nathalie Coughlin",
-    born: "1982-08-23",
+    medals: "1982-08-23",
   },
 ];
 
@@ -99,7 +99,7 @@ function buildTable(data) {
               <td class="cell_ranking">${data[i].ranking}</td>
               <td class="cell_country">${data[i].country}</td>
               <td class="name_centered cell_name">${data[i].name}</td>
-              <td class="cell_class">${data[i].born}</td>`;
+              <td class="cell_class">${data[i].medals}</td>`;
 
     table.innerHTML += row;
   }
@@ -115,7 +115,7 @@ function buildTable2(data) {
               <td class="cell_ranking">${data[i].ranking}</td>
               <td class="cell_country">${data[i].country}</td>
               <td class="name_centered cell_name">${data[i].name}</td>
-              <td class="cell_class">${data[i].born}</td>`;
+              <td class="cell_class">${data[i].medals}</td>`;
 
     table.innerHTML += row;
   }
