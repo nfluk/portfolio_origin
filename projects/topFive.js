@@ -120,3 +120,6 @@ function buildTable2(data) {
     table.innerHTML += row;
   }
 }
+
+// click the "default" button, the "Men" button, after all code is read
+document.getElementById("default").click();
